@@ -20,6 +20,7 @@ We provide our own training scripts written from scratch to train the models rep
 - [x] ~~Release High-Quality Subset of TripletData.~~
 - [ ] Release all pre-trained and finetuned checkpoints. 
 - [ ] Release TripletCLIP adaption on OpenCLIP.
+- [ ] Release data generation scripts.
 - [ ] Release full TripletData.
 - [ ] Release original TripletCLIP training scripts for reproducibility.
  
