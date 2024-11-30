@@ -2,8 +2,8 @@
 
 <div align="center">
   <a href="https://tripletclip.github.io/"><img src="https://img.shields.io/static/v1?label=Project&message=Page&color=blue&logo=github"></a> &ensp;
-  <a href="#"><img src="https://img.shields.io/static/v1?label=ArXiv&message=2410.xxxxx&color=B31B1B&logo=arxiv"></a> &ensp;
-  <a href="https://huggingface.co/spaces/ECLIPSE-Community/ECLIPSE-Kandinsky-v2.2"><img src="https://img.shields.io/static/v1?label=Data+Models&message=HuggingFace&color=yellow&logo=huggingface"></a> &ensp;
+  <a href="https://arxiv.org/abs/2411.02545"><img src="https://img.shields.io/static/v1?label=ArXiv&message=2411.02545&color=B31B1B&logo=arxiv"></a> &ensp;
+  <a href="https://huggingface.co/TripletCLIP"><img src="https://img.shields.io/static/v1?label=Data+Models&message=HuggingFace&color=yellow&logo=huggingface"></a> &ensp;
 
 <img src="assets/tripletclip_teaser.png" alt="TripletCLIP" title="" width="50%" />
 
@@ -19,11 +19,11 @@ We provide our own training scripts written from scratch to train the models rep
 
 - [x] ~~Release High-Quality Subset of TripletData.~~
 - [ ] Release all pre-trained and finetuned checkpoints. 
-- [ ] Release TripletCLIP adaption on OpenCLIP.
+- [x] ~~Release TripletCLIP adaption on OpenCLIP.~~ [./src/openclip](./src/openclip)
 - [ ] Release data generation scripts.
 - [ ] Release full TripletData.
 - [ ] Release original TripletCLIP training scripts for reproducibility.
- 
+
 
 ## Citing
 
