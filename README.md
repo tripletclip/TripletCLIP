@@ -10,24 +10,45 @@
 </div>
 
 
-This repository will provide the access to dataset, pretrained checkpoints, inference, and training code for our paper, TripletCLIP.
-We provide our own training scripts written from scratch to train the models reported in paper and OpenCLIP varient for easy reproducibility.
+This repository will provide access to the dataset, pretrained checkpoints, inference, and training code for our paper, TripletCLIP.
+We provide our training scripts written from scratch to train the models reported in paper and OpenCLIP varient for easy reproducibility.
 
 ---
 
 ## TODOs:
 
 - [x] ~~Release High-Quality Subset of TripletData.~~
-- [ ] Release all pre-trained and finetuned checkpoints. 
+- [x] ~~Release all pre-trained and finetuned checkpoints.~~
 - [x] ~~Release TripletCLIP adaption on OpenCLIP.~~ [./src/openclip](./src/openclip)
 - [ ] Release data generation scripts.
 - [ ] Release full TripletData.
 - [ ] Release original TripletCLIP training scripts for reproducibility.
 
+## Checkpoints
+
+Below are the checkpoints for the models trained on CC3M and CC12M datasets. The fine-tuning checkpoint is also provided for further customization.
+
+### Table of Checkpoints
+
+| Methods         | CC3M                                                                 | CC12M                                                                |
+|------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|
+| LaCLIP          | [Link](https://huggingface.co/TripletCLIP/CC3M_LaCLIP_ViTB12)          | [Link](https://huggingface.co/TripletCLIP/CC12M_LaCLIP_ViTB12)          |
+| LaCLIP+HN       | [Link](https://huggingface.co/TripletCLIP/CC3M_LaCLIP_Real_HN_ViTB12) | -                                                                    |
+| NegCLIP         | [Link](https://huggingface.co/TripletCLIP/CC3M_NegCLIP_ViTB12)        | [Link](https://huggingface.co/TripletCLIP/CC12M_NegCLIP_ViTB12)        |
+| NegCLIP++       | [Link](https://huggingface.co/TripletCLIP/CC3M_NegCLIPPP_ViTB12)     | [Link](https://huggingface.co/TripletCLIP/CC12M_NegCLIPPP_ViTB12)     |
+| TripletCLIP (ours) | [Link](https://huggingface.co/TripletCLIP/CC3M_TripletCLIP_ViTB12) | [Link](https://huggingface.co/TripletCLIP/CC12M_TripletCLIP_ViTB12) |
+
+### Fine-tuning Checkpoint
+
+For fine-tuning based model checkpoint, please refer to the following link:
+
+- [TripletCLIP OpenCLIP Finetuning Checkpoint](https://drive.google.com/file/d/14mupW26LMh6U4FQPa74FOIMEg8MndxCh/view?usp=sharing)
+
+
 
 ## Citing
 
-If you find the TripletCLIP useful then consider citing:
+If you find the TripletCLIP useful, then consider citing:
 
 ```bibtex
 @article{patel2024tripletclip,
